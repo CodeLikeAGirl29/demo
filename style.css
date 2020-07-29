@@ -15,14 +15,9 @@
       background: black;
       color: white;
       font-family: helvetica;
+	    margin: 60px auto;
+	    width: 70%;
     }
-  </style>
-</head>
-
-body {
-    margin: 60px auto;
-    width: 70%;
-}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -85,17 +80,5 @@ ul.posts li {
   background-color: #4CAF50;
   color: white;
 }
-
-
-
-/* ---- Advanced ---- */
-/* This tag is a bit advanced for this lesson,  
-   but is needed to wrap the pageContainer 
-   around any sized content that is floated within it. */
-
-.pageContainer:after { 
-  content: " ";
-  display: table;
-  clear: both;
-}
- 
+  </style>
+</head>
