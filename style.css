@@ -8,15 +8,13 @@
 */
 
 <head>
+<style>
   <title>Lindsey Howard</title>
-  <style>
     body {
       text-align: center;
       background: black;
       color: white;
       font-family: helvetica;
-	    margin: 60px auto;
-	    width: 70%;
     }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
