@@ -2,13 +2,8 @@
 /* 
 	STYLE.CSS:
 	One stylesheet to rule them all.
-	
-	selector { property:value }
-	
 */
 
-<head>
-<style>
   <title>Lindsey Howard</title>
     body {
       text-align: center;
@@ -78,5 +73,10 @@ ul.posts li {
   background-color: #4CAF50;
   color: white;
 }
+
+.round {
+	border-radius: 5px
+}
+
   </style>
 </head>
