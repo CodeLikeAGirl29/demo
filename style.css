@@ -1,16 +1,23 @@
-
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
 /* 
 	STYLE.CSS:
 	One stylesheet to rule them all.
 */
 
   <title>Lindsey Howard</title>
+
     body {
       text-align: center;
       background: black;
       color: white;
       font-family: helvetica;
     }
+
+p {
+  text-align: center;
+  font-size: 25px;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -29,14 +36,23 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    font-size: 50px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+
+header {
+  background-color: #FF1493;
 }
+
+header h1 {
+  margin: 0;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size:52px;
+  text-align: center;
+  padding: 15px 0 0px 15px;
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -44,7 +60,8 @@ footer {
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1.5em;
+    font-size: 10px;
+  
 }
 
 ul.posts li {
@@ -72,10 +89,6 @@ ul.posts li {
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
-}
-
-.round {
-	border-radius: 5px
 }
 
   </style>
